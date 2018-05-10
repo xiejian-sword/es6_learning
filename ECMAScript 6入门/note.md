@@ -15,7 +15,7 @@
 ## let和const命令
 
 ### let和var比较
-* let命令只在代码块中有效
+* let命令只在代码块中有效
 ```javascript
 {
   let a = 10;
@@ -108,7 +108,7 @@ function bar(x = y, y = 2) {
 bar(); // 报错
 ```
 
-* let 相同作用域内不允许重复声明
+* let 相同作用域内不允许重复声明
 ```
 // 报错
 function func() {
